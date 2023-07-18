@@ -161,30 +161,6 @@ export default function Header(props) {
                     <NavDropdown.Divider style={{ background: "#EC7AB7" }} />
                     <NavDropdown.Item
                       className="d-flex align-items-center"
-                      href="/admin/list-station"
-                    >
-                      <img
-                        src={Train}
-                        alt=""
-                        style={{ width: "40px", height: "40px" }}
-                      />
-                      <span className="ms-3 fw-bold">List Station</span>
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider style={{ background: "#EC7AB7" }} />
-                    <NavDropdown.Item
-                      className="d-flex align-items-center"
-                      href="/admin/list-ticket"
-                    >
-                      <img
-                        src={Ticket}
-                        alt=""
-                        style={{ width: "40px", height: "40px" }}
-                      />
-                      <span className="ms-3 fw-bold">List Ticket</span>
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider style={{ background: "#EC7AB7" }} />
-                    <NavDropdown.Item
-                      className="d-flex align-items-center"
                       onClick={logout}
                     >
                       <img src={Logout} style={{ width: "40px" }} alt="" />
